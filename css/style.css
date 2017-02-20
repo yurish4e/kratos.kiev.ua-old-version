@@ -1,0 +1,182 @@
+body {
+    color: #ebebeb;
+    background-color: #232828;
+    background-image: url('../images/bg-body.gif');
+}
+p {
+    text-indent: 10px;
+    /* Отступ первой строки в пикселах */
+}
+div h3,
+h4 {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.shadow_btn {
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.86);
+}
+.footerok {
+    box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-image: url('../images/dark-bg.png');
+    margin-top: 20px;
+    border-top: 4px solid #ce7d0a;
+}
+.cont-align {
+    text-align: center;
+    /*padding: 20px;*/
+}
+.fon-inverse {
+    background-color: rgba(51, 51, 51, 0.4);
+    padding: 20px;
+    margin: 30px 0 30px 0;
+    border: 1px dashed #716f6f;
+    border-radius: 10px;
+}
+.left-text {
+    text-align: right;
+}
+.marbtm {
+    margin-bottom: 15px;
+    border: 1px dashed #716f6f;
+    border-radius: 10px;
+    box-shadow: 0px 0 28px 0px rgba(0, 0, 0, 0.4);
+}
+.krat-padding-bot-10 {
+    padding-bottom: 7px;
+}
+.krat-padding-20 {
+    padding: 20px;
+}
+.krat-marging-bot-30 {
+    margin-bottom: 30px;
+}
+.krat-margin-top-30 {
+    margin-top: 30px;
+}
+.krat-text-shadow {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+.krat-text-footer {
+    color: #ebebeb;
+}
+.krat-text-footer a {
+    text-decoration: none;
+}
+.krat-margin-bot-15 {
+    margin-bottom: 15px;
+}
+.krat-content-center {
+    text-align: center;
+}
+/*
+
+.padding-sides {
+    margin: 0 20px 0 20px;
+}
+
+.padding-top20 {
+    margin: 20px 0 0 0;
+}
+
+.padding-bot20 {
+    padding: 0 0 20px 0;
+}
+*/
+
+#menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 4px solid #ce7d0a;
+}
+.section {
+    text-align: center;
+    border: 1px dashed #716f6f;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 51, 0.4);
+    text-shadow: 0 0 10px rgba(250, 250, 250, 0.6);
+}
+.shdw-diagonal {
+    box-shadow: 7px 7px 30px 0px rgba(0, 0, 0, 1);
+}
+.shdw-diagonal-half {
+    box-shadow: 7px 7px 30px 0px rgba(0, 0, 0, 0.7);
+}
+.bckgrnd-half {
+    background-image: url('../images/dark-bg.png');
+}
+.kratos-footer {
+    background: #1E1C21;
+    border: 1px dashed #716f6f;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    background-image: url('../images/bg-body.gif');
+}
+.kratos-footer a {
+    text-decoration: none;
+}
+/*Для маленьких экранов*/
+
+@media handheld,
+screen and (max-width: 800px),
+screen and (max-device-width: 800px) {
+    /* Стиль для отображения в браузере */
+    .krat-margin-sides-20 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .kratos-content-map-xs {
+        width: 100%;
+        margin: 10px;
+    }
+    .krat-section-smalldev {
+        text-align: center;
+        border-top: 1px dashed #716f6f;
+        border-bottom: 1px dashed #716f6f;
+        border-left: none;
+        border-right: none;
+        background-color: #343838;
+        text-shadow: 0 0 10px rgba(250, 250, 250, 0.8);
+        border-radius: 0;
+    }
+    #carousel {
+        margin-top: 52px;
+    }
+    .krat-images-xs {
+        width: 250px;
+    }
+    .krat-images-not-visible {
+        display: none;
+    }
+}
+.kratos-content-map,
+th {
+    text-align: center;
+}
+.kratos-table {
+    width: 100%;
+}
+.kratos-table tr {
+    border-bottom: 1px dashed #ccc;
+}
+.kratos-table td,
+th {
+    padding: 10px;
+}
+.kratos-table-fon {
+    margin: 50px;
+}
+.kratos-img-modal {
+    width: 80%;
+    margin: 10px auto;
+    box-shadow: 7px 7px 30px 0px rgba(0, 0, 0, 0.7);
+}
+
+.modal-header {
+    background-color: rgba(51, 51, 51, 0.4);
+    
+}
+.modal-content {
+    background-image: url('../images/bg-body.gif');
+}
